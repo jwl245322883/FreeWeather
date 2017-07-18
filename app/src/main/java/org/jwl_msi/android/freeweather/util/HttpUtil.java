@@ -10,6 +10,7 @@ import okhttp3.Request;
  * @Description: ${TODO}(用一句话描述该文件做什么)
  * @Date 2017/7/10 18:15
  */
+
 public class HttpUtil {
     public  static  void  sendOkHttpRequest(String address, okhttp3.Callback callback){
         OkHttpClient client = new OkHttpClient();
